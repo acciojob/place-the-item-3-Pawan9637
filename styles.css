@@ -1,2 +1,30 @@
 
 /* Your CSS Code here. */
+*{
+    margin: 0;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#div1{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+}
+
+#div2{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+#div3{
+    width: 100px;
+    height: 100px;
+    background-color:black;
+}
